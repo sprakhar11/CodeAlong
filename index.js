@@ -1,8 +1,11 @@
 const WebSocket = require('ws');
 require('dotenv').config({path:'./dev.env'})
+console.log("hit found1")
 
 const PORT=process.env.PORT||5000
+console.log("hit found2")
 const wss = new WebSocket.Server( { port: 8082 });
+console.log("hit found13")
 
 
 wss.on("connection" , ws => {
@@ -13,6 +16,7 @@ wss.on("connection" , ws => {
             }
         });
     });
+    console.log("hit found41")
 
     ws.on("close", () => {
         console.log("client disconnected");
