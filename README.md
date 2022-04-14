@@ -1,10 +1,5 @@
 
-![Developer](https://img.shields.io/badge/developer-sprakhar11-brightgreen)
-![Developer](https://img.shields.io/badge/developer-srivasPankhuri-orange)
 
-![Platform](https://img.shields.io/badge/platform-Visual%20Studio%20Code-blue)
-
-![Language](https://img.shields.io/github/languages/top/sprakhar11/Summify)
 ## Getting Started
 
 ### Setting up frontend
