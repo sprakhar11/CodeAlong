@@ -4,7 +4,7 @@ console.log("hit found1")
 
 const PORT=process.env.PORT || 80
 console.log("hit found2")
-const wss = new WebSocket.Server( { port: 80 });
+const wss = new WebSocket.Server( { port: 5500 });
 console.log("hit found13")
 
 
